@@ -1,4 +1,4 @@
-var daysCount = new Date("dec 31,2023 00:00:00").getTime();
+var daysCount = new Date("dec 31,2024 00:00:00").getTime();
 var count = setInterval(function() {
     var now = new Date().getTime();
     var time = daysCount - now;
